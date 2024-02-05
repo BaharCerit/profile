@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(238, 238, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(46, 45, 45, 0.752);
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: rgb(209, 6, 115);
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 20px;
+}
+img {
+  width: 204px;
+  height: 153px;
+  border-radius: 50%;
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+i {
+  color: rgb(36, 36, 40);
+  font-size: 30px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+#text-justify {
+  margin-bottom: 40px;
+}
+
+.btn-grey {
+  background-color: rgb(205, 203, 203);
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-top: 20px;
+}
+
+.btn-grey:hover {
+  background-color: rgb(112, 109, 109);
+}
+
+i:hover {
+  color: rgb(221, 216, 216);
+}
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+ button {
+   margin-top: 20px;
+   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  }
+
+  #label {
+    margin-right: 20px;
+    }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .card {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .card {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .card {
+      width: 300px;
+    }
+  }
